@@ -30,6 +30,14 @@ const portfolio = [
       "Kolekcja z zautomatyzowanymi testami wybranych metod z API Trello. W pliku Readme.md instrukcja uruchomienia testów w Postmanie oraz w konsoli za pośrednictwem Newmana, który przy użyciu odpowiedniej komendy generuje także raport w HTML.",
     link: "https://github.com/svshy/Trello-API-test",
   },
+  {
+    id: 4,
+    image: Web1,
+    title: "Aplikacja MERN do uwierzytelniania użytkowników",
+    description:
+      "Aplikacja umożliwia rejestrację oraz logowanie użytkownika, zarządza sesjami i wysyła powiadomienia e-mail przy użyciu zewnętrznego API. Całość została zbudowana w oparciu o technologie MERN: MongoDB, Express.js, React.js oraz Node.js.",
+    link: "https://github.com/svshy/mern-auth-app",
+  },
 ];
 
 const Portfolio = () => {

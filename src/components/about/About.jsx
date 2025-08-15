@@ -8,18 +8,33 @@ const About = () => {
     <section className="about container section" id="about">
       <h2 className="section__title">O mnie</h2>
       <div className="about__container grid">
-        <img src={Image} alt="" className="about__img" />
+        <img src={Image} alt="Dominik Such" className="about__img" />
         <div className="about__data">
           <div className="about__info">
             <p className="about__description">
-              Jestem testerem oprogramowania i początkującym programistą React.
-              Od ponad 2 lat pracuję jako tester aplikacji webowych gdzie
-              zajmuję się szeroko pojętym testowaniem - automatyzacja, API, oraz
-              testy manualne. W swojej pracy wykorzystuję m.in. JS, TS,
-              Playwright, Cypress, React. Poszukuję miejsca pracy gdzie będę
-              mógł dalej rozwijać się w powyższych technologiach, a także
-              poznawać nowe rozwiązania.
+              Obecnie pełnię rolę testera automatyzującego w Empik Group.
+              Specjalizuję się w tworzeniu testów E2E wykorzystujących
+              JavaScript, TypeScript, Playwright i Cypress, a także w testowaniu
+              API oraz wsparciu zespołów front‑endowych, szczególnie w zakresie
+              React (TS).
             </p>
+
+            <p className="about__description">
+              Nieustannie rozwijam się w obszarze testów automatycznych, a
+              dodatkowo poznaję technologie frontendowe – React – oraz
+              backendowe – Node.js. Pozwala mi to lepiej wychwytywać i naprawiać
+              potencjalne błędy od strony kodu źródłowego, a w przyszłości także
+              po stronie backendu w projektach opartych o Node.js.
+            </p>
+
+            <p className="about__description">
+              Wiedza z zakresu React umożliwia mi również aktywny udział w
+              procesie tworzenia warstwy wizualnej aplikacji w przerwach między
+              testowaniem. Dzięki temu mogę łączyć umiejętności testerskie z
+              praktyczną wiedzą programistyczną, wspierając zespół w różnych
+              etapach realizacji projektu.
+            </p>
+
             <a href={PdfCv} className="btn" download="CV_Dominik_Such.pdf">
               Pobierz CV
             </a>
