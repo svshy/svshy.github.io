@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/me.png";
-import PdfCv from "../../private_files/CV_Dominik_Such.pdf";
 
 const About = () => {
   return (
@@ -12,32 +11,23 @@ const About = () => {
         <div className="about__data">
           <div className="about__info">
             <p className="about__description">
-              Obecnie pełnię rolę testera automatyzującego w Empik Group.
-              Specjalizuję się w tworzeniu testów E2E wykorzystujących
-              JavaScript, TypeScript, Playwright i Cypress, a także w testowaniu
-              API oraz wsparciu zespołów front‑endowych, szczególnie w zakresie
-              React (TS).
+              Tester oprogramowania z ponad 4-letnim doświadczeniem w testowaniu
+              aplikacji webowych. Specjalizuję się w automatyzacji testów
+              end-to-end z wykorzystaniem Playwright oraz TypeScript.
             </p>
 
             <p className="about__description">
-              Nieustannie rozwijam się w obszarze testów automatycznych, a
-              dodatkowo poznaję technologie frontendowe – React – oraz
-              backendowe – Node.js. Pozwala mi to lepiej wychwytywać i naprawiać
-              potencjalne błędy od strony kodu źródłowego, a w przyszłości także
-              po stronie backendu w projektach opartych o Node.js.
+              Posiadam doświadczenie w projektowaniu scenariuszy testowych,
+              testowaniu API (Postman), integracji testów z pipeline CI/CD oraz
+              analizie przyczyn błędów. Posiadam również podstawową znajomość
+              testowania wydajności aplikacji webowych w k6.
             </p>
 
             <p className="about__description">
-              Wiedza z zakresu React umożliwia mi również aktywny udział w
-              procesie tworzenia warstwy wizualnej aplikacji w przerwach między
-              testowaniem. Dzięki temu mogę łączyć umiejętności testerskie z
-              praktyczną wiedzą programistyczną, wspierając zespół w różnych
-              etapach realizacji projektu.
+              Dzięki doświadczeniu frontendowemu (React) łatwiej diagnozuję
+              problemy aplikacji i efektywnie współpracuję z zespołem
+              developerskim przy poprawie jakości oprogramowania.
             </p>
-
-            <a href={PdfCv} className="btn" download="CV_Dominik_Such.pdf">
-              Pobierz CV
-            </a>
           </div>
         </div>
       </div>
